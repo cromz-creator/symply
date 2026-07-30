@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-brand;
+  }
+}
+
+/*
+  Generična, neutralna tema. Sve boje identiteta drže se ovdje kao CSS
+  varijable — kasnija dorada kroz Claude Design mijenja samo ove vrijednosti.
+*/
+:root {
+  --color-brand: #0f766e; /* teal 700 */
+  --color-brand-soft: #ccfbf1; /* teal 100 */
+  --color-brand-contrast: #ffffff;
+
+  --color-tol-green: #16a34a;
+  --color-tol-yellow: #d97706;
+  --color-tol-red: #dc2626;
+
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Sigurna zona za iOS (notch) i donji tab-bar */
+.pb-safe {
+  padding-bottom: calc(env(safe-area-inset-bottom) + 0.5rem);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
+}

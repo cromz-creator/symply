@@ -1,0 +1,104 @@
+{
+  "note": "Pregledni i znanstveni radovi o histaminskoj intoleranciji. Edukativni izvori, ne medicinski savjet.",
+  "references": [
+    {
+      "id": "maintz2007",
+      "title": "Histamine and histamine intolerance",
+      "authors": "Maintz L, Novak N",
+      "year": 2007,
+      "journal": "American Journal of Clinical Nutrition",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17490952/",
+      "topic": "mechanisms"
+    },
+    {
+      "id": "comas2020",
+      "title": "Histamine Intolerance: The Current State of the Art",
+      "authors": "Comas-Basté O, et al.",
+      "year": 2020,
+      "journal": "Biomolecules",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32824107/",
+      "topic": "mechanisms"
+    },
+    {
+      "id": "hrubisko2021",
+      "title": "Histamine Intolerance — The More We Know the Less We Know. A Review",
+      "authors": "Hrubisko M, et al.",
+      "year": 2021,
+      "journal": "Nutrients",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34209583/",
+      "topic": "overview"
+    },
+    {
+      "id": "schnedl2021",
+      "title": "Histamine Intolerance Originates in the Gut",
+      "authors": "Schnedl WJ, Enko D",
+      "year": 2021,
+      "journal": "Nutrients",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33921522/",
+      "topic": "mechanisms"
+    },
+    {
+      "id": "sdb2024",
+      "title": "Histamine Intolerance: Symptoms, Diagnosis, and Beyond",
+      "authors": "Sánchez-Pérez S, et al.",
+      "year": 2024,
+      "journal": "Nutrients",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11054089/",
+      "topic": "symptoms"
+    },
+    {
+      "id": "alcohol1999",
+      "title": "Alcohol–histamine interactions",
+      "authors": "Zimatkin SM, Anichtchik OV",
+      "year": 1999,
+      "journal": "Alcohol and Alcoholism",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10344773/",
+      "topic": "mechanisms"
+    },
+    {
+      "id": "daomigraine2019",
+      "title": "DAO Supplement Reduces Headache in Episodic Migraine Patients",
+      "authors": "Izquierdo-Casas J, et al.",
+      "year": 2019,
+      "journal": "Clinical Nutrition",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29475774/",
+      "topic": "treatment"
+    },
+    {
+      "id": "sighi",
+      "title": "SIGHI — Histamine Intolerance food compatibility list",
+      "authors": "Swiss Interest Group Histamine Intolerance",
+      "year": 2023,
+      "journal": "histaminintoleranz.ch",
+      "url": "https://www.histaminintoleranz.ch/en/introduction.html",
+      "topic": "foodLists"
+    }
+  ],
+  "claims": [
+    {
+      "hr": "DAO (diaminooksidaza) je glavni enzim koji razgrađuje histamin unesen hranom u crijevima.",
+      "en": "DAO (diamine oxidase) is the main enzyme that breaks down dietary histamine in the gut.",
+      "refIds": ["maintz2007", "comas2020", "schnedl2021"]
+    },
+    {
+      "hr": "Alkohol smanjuje razgradnju/aktivnost DAO i potiče oslobađanje tjelesnog histamina.",
+      "en": "Alcohol reduces DAO breakdown/activity and triggers release of the body’s histamine.",
+      "refIds": ["alcohol1999", "maintz2007"]
+    },
+    {
+      "hr": "Citrus i jagode djeluju kao liberatori — potiču oslobađanje tjelesnog histamina.",
+      "en": "Citrus and strawberries act as liberators — they trigger release of the body’s histamine.",
+      "refIds": ["maintz2007", "comas2020"]
+    },
+    {
+      "hr": "Fermentirana, zrela i odstajala hrana tipično sadrži visok histamin.",
+      "en": "Fermented, aged and non-fresh foods typically contain high histamine.",
+      "refIds": ["comas2020", "sighi"]
+    },
+    {
+      "hr": "Simptomi se često jave ~30 min nakon jela i preklapaju se s drugim stanjima (npr. IBS).",
+      "en": "Symptoms often appear ~30 min after eating and overlap with other conditions (e.g. IBS).",
+      "refIds": ["sdb2024", "hrubisko2021"]
+    }
+  ]
+}
